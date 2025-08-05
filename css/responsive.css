@@ -21,6 +21,7 @@
   .hero-main::before { left: 43px; } 
   .hero-main::after { right: 43px; }
   .banner-img { max-width: 1130px; }
+  .hero-content > *:nth-child(2) { right: -158px; }
    /*banner*/
 }
 @media (min-width: 1500px) and (max-width: 1599px) {
