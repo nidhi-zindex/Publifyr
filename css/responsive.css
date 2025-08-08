@@ -386,6 +386,10 @@
    .social-icons ul li a { font-size: 16px;line-height: 21px; } 
    .footer-copyright p { font-size: 14px; line-height: 21px; }
  
+   .get-access-main:after {
+    bottom: 0;
+    width: 200px;
+   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
