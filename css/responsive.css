@@ -123,11 +123,11 @@
    /*footer*/
 
    /*automation*/
-   .automation-flx { column-gap: 20px; }
+   .automation-flx { column-gap: 20px; justify-content: center;}
    .automation-block-col .automation-block .block-title { font-size: 22px; line-height: 30px; } 
    .automation-block-col .automation-block .automation-vector { width: 54px; height: 54px; }
    .automation-block { padding: 20px; }
-   .automation-block-flx { column-gap: 20px; row-gap: 20px; }
+   .automation-block-flx { column-gap: 20px; row-gap: 20px; justify-content: center; }
    /*automation*/
 
    /*faq blocks*/
@@ -290,7 +290,7 @@
    .automation-block-col-top { max-width: 362px; } 
    .automation-img { max-width: 500px; }
    .automation-main { padding: 30px 0; }
-   .automation-main::before { right: 0; filter: blur(102px); -webkit-filter: blur(102px); width: 280px; height: 300px; top: -100px; }
+   .automation-main::before { right: 20px; filter: blur(102px); -webkit-filter: blur(102px); width: 280px; height: 300px; top: -100px; }
 
    /*automation*/
 
@@ -301,7 +301,7 @@
    .faq-inner { padding: 40px 20px; border-radius: 41px; -webkit-border-radius: 41px; -moz-border-radius: 41px; -ms-border-radius: 41px; -o-border-radius: 41px; }
    .faq-main { margin: 50px 0; }
    .faq-flx .faq-block { padding: 20px; }
-   .faq-main::after { filter: blur(123px); width: 500px; height: 500px; bottom: -486px; -webkit-filter: blur(123px); }
+   .faq-main::after { filter: blur(123px);width: 300px; height: 300px; bottom: -486px; -webkit-filter: blur(123px); right: 0; }
    /*faq blocks*/
 
    /*features*/
@@ -389,6 +389,9 @@
    .get-access-main:after {
     bottom: 0;
     width: 200px;
+   }
+   .footer-copyright {
+    padding: 10px 0;
    }
 }
 
