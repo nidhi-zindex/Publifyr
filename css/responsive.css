@@ -126,7 +126,7 @@
    .automation-flx { column-gap: 20px; justify-content: center;}
    .automation-block-col .automation-block .block-title { font-size: 22px; line-height: 30px; } 
    .automation-block-col .automation-block .automation-vector { width: 54px; height: 54px; }
-   .automation-block { padding: 20px; }
+   .automation-block { padding: 20px;         flex-basis: 48%;}
    .automation-block-flx { column-gap: 20px; row-gap: 20px; justify-content: center; }
    /*automation*/
 
@@ -143,6 +143,11 @@
    .hero-content > *:nth-child(2) svg { top: -17px; left: 11px; } 
    .hero-content > *:first-child svg { top: -16px; right: 9px; } 
    .btn-wrp .bnr-btn {font-size: 14px; padding: 5px 10px;}
+
+   .automation-block-col, .automation-block-col .automation-block {
+    /* width: 100%; */
+    max-width: 350px;
+}
 }
 
 @media (min-width: 1080px) and (max-width: 1199px) {
@@ -383,7 +388,7 @@
    .automation-main::before { right: 0; filter: blur(102px); -webkit-filter: blur(102px); width: 280px; height: 300px; top: -100px; }
    .main-content::before { width: 90px;background-position: right; opacity: 0.4;}
    .main-content::after { width: 90px; opacity: 0.4;}
-   .social-icons ul li a { font-size: 16px;line-height: 21px; } 
+   .social-icons ul li a { font-size:15px;line-height: 21px; } 
    .footer-copyright p { font-size: 14px; line-height: 21px; }
  
    .get-access-main:after {
@@ -682,10 +687,11 @@
 
     /*footer*/
    .footer {  padding: 50px 0 0 0; }
-   .footer-navigation-wrp ul li { margin-bottom: 15px; } 
+   .footer-navigation-wrp ul li { margin-bottom: 10px; } 
    .footer-left .small-detail { max-width: 100%; font-size: 15px; line-height: 23px; }    
    .footer-flx { justify-content: space-between; }
    .footer-navigation-wrp > *:nth-child(2) {margin: 0 19px 0 0; flex-basis: 100%; } 
+   .footer-navigation-wrp ul li a { font-size: 15px; }
    .footer-right {max-width: 100%; margin-top: 10px; } 
    .footer-right .form-control {padding: 14px 108px 14px 18px;flex-basis: 100%; width: 100%; } 
    .footer-right .input-group .btn {padding: 11px 22px !important; right: 4px; font-size: 16px;} 
