@@ -884,7 +884,7 @@ p {
 .automation-block-flx {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 25px;
+  column-gap: 24px;
   max-width: 751px;
   row-gap: 30px;
 }

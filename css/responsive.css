@@ -131,7 +131,7 @@
    /*automation*/
 
    /*faq blocks*/
-   .faq-inner { padding: 95px 119px; }
+   .faq-inner {padding: 95px 70px; }
    .faq-main { margin: 50px 0; }
    /*faq blocks*/
    /*features*/
@@ -211,7 +211,7 @@
    /*automation*/
 
    /*faq blocks*/
-   .faq-inner { padding: 95px 119px; }
+   .faq-inner { padding:45px; }
    .faq-main { margin: 50px 0; }
    .faq-main::after { opacity: 0.15;filter: blur(123px); width: 500px; height: 500px; bottom: -486px; -webkit-filter: blur(123px); }
    /*faq blocks*/
@@ -648,7 +648,7 @@
    .navbar { padding: 10px;  max-width: 1000px; margin: 0 20px 0 20px;} 
    .header { top: 30px; }
    .nav-item a { font-size: 16px; line-height: 20px; }
-   .nav-logo .logo { max-width: 138px; z-index: 9999; position: relative; }
+   .nav-logo .logo { max-width: 138px;  }
    /*header*/
 
    /*banner*/
