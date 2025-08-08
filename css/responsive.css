@@ -745,19 +745,19 @@
    .authors-block { padding: 0 15px; } 
    .author-testimonials .slick-list { margin: 0 -15px; }
    .author-inner { padding: 20px; height: Calc(100% - 56px); margin: 0 0 56px 0; }
-    .authors-testimonials-main   .container { max-width: 770px; }
-    .author-detail img { height: 57px; width: 57px; }
-    .authors-testimonials-wrp .large-paragraph { font-size: 16px; line-height: 23px; }
-    .get-access-main .large-paragraph { font-size: 16px; line-height: 24px; margin: 10px  0 30px 0; } 
-    .get-access-form { border-radius: 20px; padding: 13px; -webkit-border-radius: 20px; -moz-border-radius: 20px; -ms-border-radius: 20px; -o-border-radius: 20px; } 
-    .get-access-wrp { padding: 6px; border: 1px solid #cee0e9; background: linear-gradient(0deg, #e3eaf8 0%, #e3eaf8 100%), #fff; border-radius: 22px; }
+   .authors-testimonials-main   .container { max-width: 770px; }
+   .author-detail img { height: 57px; width: 57px; }
+   .authors-testimonials-wrp .large-paragraph { font-size: 16px; line-height: 23px; }
+   .get-access-main .large-paragraph { font-size: 16px; line-height: 24px; margin: 10px  0 30px 0; } 
+   .get-access-form { border-radius: 20px; padding: 13px; -webkit-border-radius: 20px; -moz-border-radius: 20px; -ms-border-radius: 20px; -o-border-radius: 20px; } 
+   .get-access-wrp { padding: 6px; border: 1px solid #cee0e9; background: linear-gradient(0deg, #e3eaf8 0%, #e3eaf8 100%), #fff; border-radius: 22px; }
     /*authors-testimonials*/
-    .get-access-main { padding: 50px 0; }
-    .google-ratings .small-detail { flex-direction: column; row-gap: 14px; }
-    .get-access-form .form-group .form-icon { top: 48px; left: 8px; height: 20px; width: 19px; } 
-    .get-access-form .form-control { padding: 15px 10px 15px 30px; }
+   .get-access-main { padding: 50px 0; }
+   .google-ratings .small-detail { flex-direction: column; row-gap: 14px; }
+   .get-access-form .form-group .form-icon { top: 48px; left: 8px; height: 20px; width: 19px; } 
+   .get-access-form .form-control { padding: 15px 10px 15px 30px; }
 
-       .main-content::before { width: 40px;background-position: right; }
+   .main-content::before { width: 40px;background-position: right; }
    .main-content::after { width: 40px; }
 }
 

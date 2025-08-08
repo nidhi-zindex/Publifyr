@@ -1386,7 +1386,7 @@ p {
 
 .get-access-form .form-group label {
   color: #1d1c2d;
-  font-family: "Inter" , sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 130%; /* 20.8px */
@@ -1404,7 +1404,6 @@ p {
 
 /*get-access-main*/
 
-
 /*authors-testimonials*/
 .authors-testimonials-main {
   padding: 58px 0;
@@ -1413,7 +1412,7 @@ p {
 .authors-testimonials-wrp .large-paragraph {
   color: #455267;
   text-align: center;
-  font-family: "Inter" , sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 18px;
   font-weight: 500;
   line-height: 36px; /* 200% */
@@ -1556,7 +1555,7 @@ p {
 }
 .author-text p {
   color: #1a2841;
-  font-family: "Outfit",  sans-serif;
+  font-family: "Outfit", sans-serif;
   font-size: 17px;
   font-weight: 700;
   line-height: 24px; /* 141.176% */
@@ -1564,7 +1563,7 @@ p {
 }
 .author-text span {
   color: #1a2841;
-  font-family: "Urbanist",  sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
@@ -1605,4 +1604,3 @@ p {
   z-index: -1;
 }
 /*authors-testimonials*/
-
